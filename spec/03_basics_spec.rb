@@ -1,6 +1,6 @@
 require_relative '../lib/03_basics'
 
-describe 'who is the biggest number' do
+describe 'who_is_bigger' do
   # Hint: 'def who_is_bigger(a, b, c)'
   it 'tells me the biggest' do
     expect(who_is_bigger(84, 42, nil)).to eq("nil detected")
@@ -11,7 +11,7 @@ describe 'who is the biggest number' do
   end
 end
 
-describe 'crazy stuff on strings' do
+describe 'crazy_stuff_string' do
   # Reverse, upcase then removes all L, T and A.
   # Hint: google ruby string
   it 'does crazy stuff on strings' do
